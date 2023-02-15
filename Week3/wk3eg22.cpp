@@ -1,0 +1,34 @@
+#include<iostream>
+using namespace std;
+
+class EquiTraingle{
+    float a; // defaul private vairables 
+    float circumference;
+    float area;
+public:
+    void setA(float length){ // setter function
+        a = length;
+        circumference = a*3;
+        area = (1.73 * a * a)/ 4;
+    }
+    //friend void printResult(EquiTraingle);
+    friend class PrintVal;
+};
+class PrintVal{
+public:
+    void printResult(EquiTraingle e2){
+        cout<<"circumference = " << e2.circumference << endl;
+        cout <<"area = " << e2.area<<endl;
+    }
+};
+
+int main(){
+    EquiTraingle e1;
+    PrintVal p1;
+    e1.setA(5);
+    //cout<<"circumference = " << e1.circumference << endl;
+    //cout <<"area = " << e1.area<<endl;
+    //printResult(e1);
+    p1.printResult(e1);
+
+}
