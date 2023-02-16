@@ -20,5 +20,7 @@ void printResult(EquiTraingle e2){
 int main(){
     EquiTraingle e1;
     e1.setA(5);
+    //cout<<"circumference = " << e1.circumference << endl;
+    //cout <<"area = " << e1.area<<endl;
     printResult(e1);
 }
