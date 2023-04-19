@@ -11,11 +11,13 @@ public:
 // derived1 inherits base as virtual.
 class derived1 : virtual public base {
 public: 
-    int j;
+    // int i;
+    int j;;
 };
 // derived2 inherits base as virtual.
 class derived2 : virtual public base {
-public: 
+public:
+    // int i;
     int k; 
 };
 class derived3 : public derived1, public derived2 {

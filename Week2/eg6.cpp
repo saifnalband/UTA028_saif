@@ -5,8 +5,8 @@ Pass-by-value
 Pass-by-reference*/
 #include <iostream>
 using namespace std;
-class Convert
-{	public :
+class Convert{	
+	public :
 		int i;
 		void increment(Convert &obj){
             obj.i = obj.i*2;

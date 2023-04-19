@@ -10,15 +10,20 @@ public:
 // derived1 inherits base.
 class derived1 : public base {
 public: 
+    // int i;
     int j; 
 };
 // derived2 inherits base.
 class derived2 : public base {
+    // 
 public: 
+    // int i;
     int k; 
 };
 class derived3 : public derived1, public derived2 {
 public: 
+    // int i, j;
+    // int i, k;
     int sum; 
 };
 int main(){
