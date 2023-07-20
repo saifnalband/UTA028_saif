@@ -1,6 +1,6 @@
 /*
 reading of file using member function
-get function 
+get function : problem of extra char
 */
 #include<fstream>
 #include<iostream>

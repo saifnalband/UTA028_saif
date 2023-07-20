@@ -1,6 +1,7 @@
 /*
 reading of file using member function
 get function checking if files exist
+solution to eg5
 */
 #include<fstream>
 #include<iostream>

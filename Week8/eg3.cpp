@@ -12,7 +12,7 @@ int main(){
     while (!ob.eof()){
         /* code */
         ob.getline(c,300); // getline(c,300,'u'); default with \n
-        cout<<c<<endl;
+        cout<<c<<endl;// changes
     }
     ob.close();
 }

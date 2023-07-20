@@ -13,7 +13,7 @@ class Polygon {
         width = x; 
         height = y;
     }
-    virtual int area (){
+    virtual area (){
         return 0;
     }
 };

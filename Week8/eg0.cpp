@@ -7,5 +7,5 @@ int main(){
     //ofstream("eg0.txt");
     ofstream ob("eg0.txt");// constructor method
     //ofstream ob("D:\\Software\\EST\\eg0.txt");// Another Folder
-    ob<<"C++ File System"; // cout<<"C++";
+    ob<<"C++ File System"; // cout<<"C++"; in the file
 }

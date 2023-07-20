@@ -9,10 +9,12 @@ using namespace std;
 class ComplexT{		// A class to define complex numbers
 	double re,im;
  public:
+ 	// Constructor
 	ComplexT(double re_new=0,double im_new=0){
         re = re_new;
         im = im_new;
-    }									// Constructor
+    }
+	// Function Declaration									
 	void operator=(ComplexT& );	//assingment operator
 	ComplexT operator+(ComplexT & ); // Function of operator +
 	void print() const;

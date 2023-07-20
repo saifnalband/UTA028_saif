@@ -1,6 +1,6 @@
 /*
 fstream example : works for both reading and writing
-replace letter
+replace letter: File Pointer : PPT10 slide 45
 */
 #include<fstream>
 #include<iostream>
